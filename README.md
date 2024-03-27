@@ -13,8 +13,8 @@ Starting boilerplate of [Strapi](https://strapi.io/) application
 ## Using
 
 ```sh
+make install
 make setup
-make start
 ```
 
 ## Run tests
