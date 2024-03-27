@@ -1,4 +1,4 @@
-name: setup-and-test
+name: work
 # on – определяет события, которые запускают воркфлоу
 on: push
 # Пример для проекта на Node.js
@@ -24,6 +24,7 @@ jobs:
 
   security:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
